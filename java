@@ -1,10 +1,9 @@
-public class CharacterCounter {
+public class Main {
     public static void main(String[] args) {
-        String[] words = {"hello", "world", "java", "programming"};
-        char character = 'o';
+        String[] words = {"apple", "banana", "cherry"};
+        char character = 'a';
         countAndDisplayPositions(words, character);
     }
-
     public static void countAndDisplayPositions(String[] words, char character) {
         for (String word : words) {
             int count = 0;
